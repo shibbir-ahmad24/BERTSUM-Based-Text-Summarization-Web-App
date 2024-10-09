@@ -1,47 +1,71 @@
-# End-to-End-Text-Summarization-Web-App
+# BERTSUM-Based Text Summarization Web App
 
-The Text Summarization Web App is a user-friendly platform that allows users to input text documents or articles and receive concise summaries of the content. Using natural language processing techniques, the app analyzes the input text, identifies key information, and generates a condensed summary to provide users with a quick overview.
+Overview
 
-## Features
+The BERTSUM-Based Text Summarization Web App is an intuitive platform that allows users to input documents or articles and receive concise summaries. Leveraging advanced Natural Language Processing (NLP) techniques, the app processes the input, extracts key points, and provides a shortened, meaningful summary. This tool is perfect for users who want a quick overview of lengthy content without missing important details.
 
-- **Text Input**: Users can enter text or upload documents in various formats, including plain text, PDF, or Word documents.
-- **Automatic Summarization**: The app employs advanced algorithms to automatically generate summaries from the input text, condensing it into a shorter version.
-<!-- - **Summary Length Control**: Users have the ability to adjust the desired length of the summary, allowing them to obtain more detailed or brief summaries according to their preference.
-- **Multi-Language Support**: The app supports multiple languages, enabling users to summarize text in different languages. -->
-- **Summarization Models**: The app utilizes state-of-the-art machine learning models specifically designed for text summarization tasks, ensuring accurate and coherent summaries.
+Key Features
 
-## Tech Stack
+•	Text Input: Users can input text directly in various languages.
+•	Automatic Summarization: The app uses state-of-the-art algorithm to analyze and generate a summary, significantly reducing the length of the original content.
+•	Summarization Model: Powered by the BERTSUM model, specifically designed for text summarization tasks, the app ensures high accuracy, coherence, and relevance in the generated summaries.
+•	Word Count Display: The app automatically counts and displays both the original text's word length and the summary's word length, allowing users to gauge the level of condensation.
+•	Real-Time Summarization: Users can instantly see the summary after inputting the text and initiating the process.
+•	Customizable Summary Length: Adjust the length of the summary based on your preferences for a more concise or detailed output.
 
-- **Python**: The Text Summarization Web App is built using Python, a powerful and versatile programming language.
-- **Flask**: The app utilizes the Flask web framework, providing a lightweight and efficient solution for building web applications in Python.
-- **Heroku**: The app is deployed and hosted on the Heroku platform, allowing for easy scalability, deployment, and management of the application.
+How BERTSUM Summarizes Text
 
-## Installation
+The BERTSUM model is a specialized variant of BERT (Bidirectional Encoder Representations from Transformers) that is tailored for extractive summarization. It works by:
+1.	Understanding Context: BERTSUM first analyzes the entire input text to capture the context and relationships between sentences.
+2.	Scoring Sentences: The model scores each sentence based on its relevance to the overall content.
+3.	Extracting Key Sentences: The top-scoring sentences are selected and assembled to form a coherent, concise summary that retains the most critical information from the original document.
+4.	Ensuring Coherence: Thanks to BERTSUM’s sophisticated understanding of language, the generated summaries maintain a logical flow, making them easy to read.
 
-1. Clone the repository: `git clone https://github.com/srivasPankhuri/Text-Summarization-Web-App.git`
-2. Set up the necessary dependencies and environment according to the provided documentation.
-3. Configure the app settings, including any API keys or external services required.
-4. Build and run the application on your local development server.
+Tech Stack
 
-## Usage
+•	Python: The core functionality of the app is built using Python, offering versatility and scalability.
+•	Flask: The lightweight Flask framework is used to handle web requests, ensuring fast and efficient performance.
+•	Netlify: The application is deployed on Netlify, offering seamless scalability, fast deployment, and easy management.
 
-1. Access the Text Summarization Web App through your preferred web browser.
-2. Enter or upload the text document you wish to summarize.
-<!-- 3. Specify the desired length or level of detail for the summary. -->
-4. Initiate the summarization process.
-5. View the generated summary, which will be displayed on the app's interface.
-6. Explore the option to download or share the summary, if available.
+Installation Guide
 
-Feel free to experiment with different text inputs, summary lengths, and languages to evaluate the app's summarization capabilities.
+To set up the Text Summarization Web App locally, follow these steps:
+1.	Clone the Repository
+git clone  https://github.com/shibbir282/BERTSUM-Based-Text-Summarization-Web-App.git
 
-## Contributing
+2.	Install Dependencies Set up your Python environment by installing the required dependencies:
+pip install -r requirements.txt
 
-Contributions are welcome! If you want to contribute to this project, please fork the repository and create a new branch. Submit any pull requests or open issues for further discussion.
+3.	Configure the Application Update any required settings, such as API keys or external services, as specified in the configuration files.
+4.	Run the Application Start the Flask development server:
+python app.py
+5.	Access the App Open your web browser and go to the generated link as like as follows:
+http://127.0.0.1:5000/
 
-<!-- ## License
+Usage Instructions
 
-This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute this code for personal or commercial purposes. -->
+1.	Input Text: Use the web interface to paste text documents in supported formats.
+2.	Summarization: Click the "Generate Summary" button to initiate the process. The app will automatically analyze the text using BERTSUM model and generate a summary.
+3.	View Word Counts: The app will display the original text's word count alongside the summary's word count, helping you see how much the text was condensed.
+4.	Download or Share: If supported, users can download the summary or share it directly from the interface.
+5.	Experiment: Try different input texts, summary lengths, and even other languages to explore the app’s capabilities.
 
-## Acknowledgements
+Contributions
 
-We would like to express our gratitude to the contributors and the open-source community for their valuable resources and inspiration used in building this Text Summarization Web App. Their dedication and expertise have been instrumental in its development and success.
+We welcome contributions! If you'd like to improve this project, feel free to fork the repository, create a new branch, and submit a pull request. You can also raise issues for any bugs or feature requests you'd like to discuss.
+
+Acknowledgements
+
+A big thank you to the open-source community and contributors for their valuable tools, libraries, and resources. This project wouldn't have been possible without their ongoing efforts and innovation in the field of Natural Language Processing.
+
+Future Enhancements
+
+•	Abstractive Summarization: Introduce abstractive summarization capabilities for more dynamic summaries that rephrase content instead of just extracting sentences.
+•	Multi-Language Support: Expand the app to summarize texts in multiple languages.
+•	User Authentication: Add user login to save past summaries for future reference.
+•	API Integration: Develop an API for integrating summarization services into other applications.
+
+Conclusion
+
+The BERTSUM-Based Text Summarization Web App offers an easy-to-use, reliable solution for summarizing lengthy texts. With features like customizable summary length, real-time results, and word count displays, this tool is perfect for users looking for quick insights from long documents. It’s an excellent example of cutting-edge NLP in action, demonstrating the potential of models like BERTSUM in modern applications.
+
