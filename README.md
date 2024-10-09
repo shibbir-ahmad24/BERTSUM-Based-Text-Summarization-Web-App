@@ -1,7 +1,5 @@
 # End-to-End-Text-Summarization-Web-App
 
-# Text Summarization Web App
-
 The Text Summarization Web App is a user-friendly platform that allows users to input text documents or articles and receive concise summaries of the content. Using natural language processing techniques, the app analyzes the input text, identifies key information, and generates a condensed summary to provide users with a quick overview.
 
 ## Features
