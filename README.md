@@ -48,7 +48,7 @@ To set up the Text Summarization Web App locally, follow these steps:
 - Summarization: Click the "Generate Summary" button to initiate the process. The app will automatically analyze the text using BERTSUM model and generate a summary.
 - View Word Counts: The app will display the original text's word count alongside the summary's word count, helping you see how much the text was condensed.
 - Download or Share: If supported, users can download the summary or share it directly from the interface.
-5.	rExperiment: Try different input texts, summary lengths, and even other languages to explore the app’s capabilities.
+- Experiment: Try different input texts, summary lengths, and even other languages to explore the app’s capabilities.
 
 **Contributions**
 
@@ -60,10 +60,10 @@ A big thank you to the open-source community and contributors for their valuable
 
 **Future Enhancements**
 
-•	Abstractive Summarization: Introduce abstractive summarization capabilities for more dynamic summaries that rephrase content instead of just extracting sentences.
-•	Multi-Language Support: Expand the app to summarize texts in multiple languages.
-•	User Authentication: Add user login to save past summaries for future reference.
-•	API Integration: Develop an API for integrating summarization services into other applications.
+- Abstractive Summarization: Introduce abstractive summarization capabilities for more dynamic summaries that rephrase content instead of just extracting sentences.
+- Multi-Language Support: Expand the app to summarize texts in multiple languages.
+- User Authentication: Add user login to save past summaries for future reference
+- API Integration: Develop an API for integrating summarization services into other applications.
 
 **Conclusion**
 
