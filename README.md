@@ -31,15 +31,20 @@ The BERTSUM model is a specialized variant of BERT (Bidirectional Encoder Repres
 
 To set up the Text Summarization Web App locally, follow these steps:
 - Clone the Repository
+  
   git clone  https://github.com/shibbir282/BERTSUM-Based-Text-Summarization-Web-App.git
 
 - Install Dependencies Set up your Python environment by installing the required dependencies:
+  
   pip install -r requirements.txt
 
 - Configure the Application Update any required settings, such as API keys or external services, as specified in the configuration files.
 - Run the Application Start the Flask development server:
+  
   python app.py
+  
 - Access the App Open your web browser and go to the generated link as like as follows:
+  
   http://127.0.0.1:5000/
 
 **Usage Instructions**
