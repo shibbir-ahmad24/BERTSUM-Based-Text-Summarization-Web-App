@@ -2,35 +2,35 @@
 
 **Overview**
 
-The BERTSUM-Based Text Summarization Web App is an intuitive platform that allows users to input documents or articles and receive concise summaries. Leveraging advanced Natural Language Processing (NLP) techniques, the app processes the input, extracts key points, and provides a shortened, meaningful summary. This tool is perfect for users who want a quick overview of lengthy content without missing important details.
+The **BERTSUM-Based Text Summarization Web App** is an intuitive platform that allows users to input documents or articles and receive concise summaries. Leveraging advanced **Natural Language Processing (NLP)** techniques, the app processes the input, extracts key points, and provides a shortened, meaningful summary. This tool is perfect for users who want a quick overview of lengthy content without missing important details.
 
 **Key Features**
 
-- Text Input: Users can input text directly in various languages.
-- Automatic Summarization: The app uses state-of-the-art algorithm to analyze and generate a summary, significantly reducing the length of the original content.
-- Summarization Model: Powered by the BERTSUM model, specifically designed for text summarization tasks, the app ensures high accuracy, coherence, and relevance in the generated summaries.
-- Word Count Display: The app automatically counts and displays both the original text's word length and the summary's word length, allowing users to gauge the level of condensation.
-- Real-Time Summarization: Users can instantly see the summary after inputting the text and initiating the process.
-- Customizable Summary Length: Adjust the length of the summary based on your preferences for a more concise or detailed output.
+- **Text Input:** Users can input text directly in various languages.
+- **Automatic Summarization:** The app uses state-of-the-art algorithm to analyze and generate a summary, significantly reducing the length of the original content.
+- **Summarization Model:** Powered by the **BERTSUM** model, specifically designed for text summarization tasks, the app ensures high accuracy, coherence, and relevance in the generated summaries.
+- **Word Count Display:** The app automatically counts and displays both the original text's word length and the summary's word length, allowing users to gauge the level of condensation.
+- **Real-Time Summarization:** Users can instantly see the summary after inputting the text and initiating the process.
+- **Customizable Summary Length:** Adjust the length of the summary based on your preferences for a more concise or detailed output.
 
 **How BERTSUM Summarizes Text**
 
-The BERTSUM model is a specialized variant of BERT (Bidirectional Encoder Representations from Transformers) that is tailored for extractive summarization. It works by:
-- Understanding Context: BERTSUM first analyzes the entire input text to capture the context and relationships between sentences.
-- Scoring Sentences: The model scores each sentence based on its relevance to the overall content.
-- Extracting Key Sentences: The top-scoring sentences are selected and assembled to form a coherent, concise summary that retains the most critical information from the original document.
-- Ensuring Coherence: Thanks to BERTSUM’s sophisticated understanding of language, the generated summaries maintain a logical flow, making them easy to read.
+The **BERTSUM** model is a specialized variant of **BERT (Bidirectional Encoder Representations from Transformers)** that is tailored for extractive summarization. It works by:
+- **Understanding Context:** BERTSUM first analyzes the entire input text to capture the context and relationships between sentences.
+- **Scoring Sentences:** The model scores each sentence based on its relevance to the overall content.
+- **Extracting Key Sentences:** The top-scoring sentences are selected and assembled to form a coherent, concise summary that retains the most critical information from the original document.
+- **Ensuring Coherence:** Thanks to BERTSUM’s sophisticated understanding of language, the generated summaries maintain a logical flow, making them easy to read.
 
 **Tech Stack**
 
-- Python: The core functionality of the app is built using Python, offering versatility and scalability.
-- Flask: The lightweight Flask framework is used to handle web requests, ensuring fast and efficient performance.
-- Netlify: The application is deployed on Netlify, offering seamless scalability, fast deployment, and easy management.
+- **Python:** The core functionality of the app is built using Python, offering versatility and scalability.
+- **Flask:** The lightweight Flask framework is used to handle web requests, ensuring fast and efficient performance.
+- **Netlify:** The application is deployed on Netlify, offering seamless scalability, fast deployment, and easy management.
 
 **Installation Guide**
 
-To set up the Text Summarization Web App locally, follow these steps:
-- Clone the Repository
+To set up the **Text Summarization Web App** locally, follow these steps:
+- **Clone the Repository**
   
   git clone  https://github.com/shibbir282/BERTSUM-Based-Text-Summarization-Web-App.git
 
@@ -65,10 +65,10 @@ A big thank you to the open-source community and contributors for their valuable
 
 **Future Enhancements**
 
-- Abstractive Summarization: Introduce abstractive summarization capabilities for more dynamic summaries that rephrase content instead of just extracting sentences.
-- Multi-Language Support: Expand the app to summarize texts in multiple languages.
-- User Authentication: Add user login to save past summaries for future reference
-- API Integration: Develop an API for integrating summarization services into other applications.
+- **Abstractive Summarization:** Introduce abstractive summarization capabilities for more dynamic summaries that rephrase content instead of just extracting sentences.
+- **Multi-Language Support:** Expand the app to summarize texts in multiple languages.
+- **User Authentication:** Add user login to save past summaries for future reference
+- **API Integration:** Develop an API for integrating summarization services into other applications.
 
 **Conclusion**
 
