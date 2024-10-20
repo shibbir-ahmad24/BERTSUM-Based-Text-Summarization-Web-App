@@ -6,7 +6,7 @@ The **BERTSUM-Based Text Summarization Web App** is an intuitive platform that a
 
 **Key Features**
 
-- **Text Input:** Users can input text directly in various languages.
+- **Text Input:** Users can input text directly in English.
 - **Automatic Summarization:** The app uses state-of-the-art algorithm to analyze and generate a summary, significantly reducing the length of the original content.
 - **Summarization Model:** Powered by the **BERTSUM** model, specifically designed for text summarization tasks, the app ensures high accuracy, coherence, and relevance in the generated summaries.
 - **Word Count Display:** The app automatically counts and displays both the original text's word length and the summary's word length, allowing users to gauge the level of condensation.
