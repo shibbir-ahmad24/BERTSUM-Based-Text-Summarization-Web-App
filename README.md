@@ -25,7 +25,7 @@ The **BERTSUM** model is a specialized variant of **BERT (Bidirectional Encoder 
 
 - **Python:** The core functionality of the app is built using Python, offering versatility and scalability.
 - **Flask:** The lightweight Flask framework is used to handle web requests, ensuring fast and efficient performance.
-- **Netlify:** The application is deployed on Netlify, offering seamless scalability, fast deployment, and easy management.
+- **AWS:** The application is designed for deployment on AWS, ensuring seamless scalability, fast deployment, and simplified management.
 
 **Installation Guide**
 
