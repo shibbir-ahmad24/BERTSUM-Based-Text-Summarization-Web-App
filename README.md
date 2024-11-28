@@ -1,8 +1,8 @@
-# BERTSUM-Based Text Summarization Web App
+# SumBERT: A Text Summarization Flask App
 
 **Overview**
 
-The **BERTSUM-Based Text Summarization Web App** is an intuitive platform that allows users to input documents or articles and receive concise summaries. Leveraging advanced **Natural Language Processing (NLP)** techniques, the app processes the input, extracts key points, and provides a shortened, meaningful summary. This tool is perfect for users who want a quick overview of lengthy content without missing important details.
+The **SumBERT: A Text Summarization Flask App** is an intuitive platform that allows users to input documents or articles and receive concise summaries. Leveraging advanced **Natural Language Processing (NLP)** techniques, the app processes the input, extracts key points, and provides a shortened, meaningful summary. This tool is perfect for users who want a quick overview of lengthy content without missing important details.
 
 **Key Features**
 
@@ -29,7 +29,7 @@ The **BERTSUM** model is a specialized variant of **BERT (Bidirectional Encoder 
 
 **Installation Guide**
 
-To set up the **Text Summarization Web App** locally, follow these steps:
+To set up the **Text Summarization Flask App** locally, follow these steps:
 - **Clone the Repository**
   
   git clone  https://github.com/shibbir282/BERTSUM-Based-Text-Summarization-Web-App.git
@@ -72,5 +72,5 @@ A big thank you to the open-source community and contributors for their valuable
 
 **Conclusion**
 
-The BERTSUM-Based Text Summarization Web App offers an easy-to-use, reliable solution for summarizing lengthy texts. With features like customizable summary length, real-time results, and word count displays, this tool is perfect for users looking for quick insights from long documents. It’s an excellent example of cutting-edge NLP in action, demonstrating the potential of models like BERTSUM in modern applications.
+The SumBERT: A Text Summarization Flask App offers an easy-to-use, reliable solution for summarizing lengthy texts. With features like customizable summary length, real-time results, and word count displays, this tool is perfect for users looking for quick insights from long documents. It’s an excellent example of cutting-edge NLP in action, demonstrating the potential of models like BERTSUM in modern applications.
 
