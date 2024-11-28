@@ -57,11 +57,11 @@ To set up the **Text Summarization Flask App** locally, follow these steps:
 
 **Contributions**
 
-We welcome contributions! If you'd like to improve this project, feel free to fork the repository, create a new branch, and submit a pull request. You can also raise issues for any bugs or feature requests you'd like to discuss.
+I welcome contributions! If you'd like to improve this project, feel free to fork the repository, create a new branch, and submit a pull request. You can also raise issues for any bugs or feature requests you'd like to discuss.
 
 **Acknowledgements**
 
-A big thank you to the open-source community and contributors for their valuable tools, libraries, and resources. This project wouldn't have been possible without their ongoing efforts and innovation in the field of Natural Language Processing.
+A big thanks to the open-source community and contributors for their valuable tools, libraries, and resources. This project wouldn't have been possible without their ongoing efforts and innovation in the field of Natural Language Processing.
 
 **Future Enhancements**
 
