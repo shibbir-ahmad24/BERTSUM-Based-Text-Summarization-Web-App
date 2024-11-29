@@ -1,8 +1,8 @@
-# SumBERT: AI-Powered Text Summarization Flask App
+# SumBERT: AI-Powered Text Summarization App
 
 **Overview**
 
-The **SumBERT: AI-Powered Text Summarization Flask App** is an intuitive platform that allows users to input documents or articles and receive concise summaries. Leveraging advanced **Natural Language Processing (NLP)** techniques, the app processes the input, extracts key points, and provides a shortened, meaningful summary. This tool is perfect for users who want a quick overview of lengthy content without missing important details.
+The **SumBERT: AI-Powered Text Summarization App** is an intuitive platform that allows users to input documents or articles and receive concise summaries. Leveraging advanced **Natural Language Processing (NLP)** techniques, the app processes the input, extracts key points, and provides a shortened, meaningful summary. This tool is perfect for users who want a quick overview of lengthy content without missing important details.
 
 **Key Features**
 
