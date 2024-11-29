@@ -74,3 +74,11 @@ A big thanks to the open-source community and contributors for their valuable to
 
 The SumBERT: AI-Powered Text Summarization Flask App offers an easy-to-use, reliable solution for summarizing lengthy texts. With features like customizable summary length, real-time results, and word count displays, this tool is perfect for users looking for quick insights from long documents. It’s an excellent example of cutting-edge NLP in action, demonstrating the potential of models like BERTSUM in modern applications.
 
+**APP UI**
+
+![p1](https://github.com/shibbir-ahmad24/SumBERT-AI-Powered-Text-Summarization-Flask-App/blob/main/Figures/text1.PNG)
+
+![p2](https://github.com/shibbir-ahmad24/SumBERT-AI-Powered-Text-Summarization-Flask-App/blob/main/Figures/text2.PNG)
+
+![p3](https://github.com/shibbir-ahmad24/SumBERT-AI-Powered-Text-Summarization-Flask-App/blob/main/Figures/text3.PNG)
+
